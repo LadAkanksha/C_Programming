@@ -1,0 +1,16 @@
+// Program to demonstrate the area and perimeter of rectangle
+
+
+#include <stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int l = 10, b = 10;
+
+    printf("Area of rectangle is : %d", l * b);
+
+    printf("\nPerimeter of rectangle is : %d", 2 * (l + b));
+
+    return 0;
+}
